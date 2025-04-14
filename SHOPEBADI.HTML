@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BADI OLSHOP</title>
+    <style>
+        body {
+            background-color: #ffcc00; /* Warna latar belakang yang lebih cerah */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            font-size: 3em; /* Ukuran font lebih besar */
+        }
+        .welcome {
+            color: #fff;
+            font-size: 1.5em; /* Ukuran font lebih kecil untuk marquee */
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px; /* Radius sudut yang lebih besar */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05); /* Efek zoom pada gambar saat hover */
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 15px;
+            overflow: hidden; /* Menjaga border-radius */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            width: 80%; /* Lebar tabel */
+        }
+        th, td {
+            text-align: center;
+            padding: 20px;
+            transition: background-color 0.3s, transform 0.3s; /* Transisi halus */
+        }
+        th {
+            background-color: #ff6600; /* Warna latar belakang header */
+            color: white;
+            font-size: 1.2em; /* Ukuran font header */
+        }
+        td:hover {
+            background-color: rgba(255, 165, 0, 0.3); /* Warna latar belakang saat hover */
+            transform: scale(1.05); /* Efek zoom saat hover */
+        }
+        a {
+            text-decoration: none;
+            color: #333; /* Warna teks link */
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            transition: color 0.3s, transform 0.3s; /* Transisi halus */
+        }
+        a:hover {
+            color: #ff6600; /* Warna teks saat hover */
+            transform: translateY(-3px); /* Efek naik saat hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>BADI TNF SHOOP</h1>
+    <marquee class="welcome">--------------------Selamat Berbelanja!--------------------</marquee>
+    <img src="biru.png" alt="Shop Banner" width="600">
+    
+    <table>
+        <tbody>
+            <tr>
+                <th>TOPI TNF</th>
+                <th>JAKET TNF</th>
+                <th>SEPATU TNF</th>
+                <th>CELANA TNF</th>
+                <th>TAS TNF</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="TOPI.PNG" alt="Topi" width="200">
+                    <a href="TOPI.html">TOPI</a>
+                </td>
+                <td>
+                    <img src="JAKET.JPG" alt="Jaket" width="200">
+                    <a href="JAKET.html">JAKET</a>
+                </td>
+                <td>
+                    <img src="SEPATU.JPG" alt="Sepatu" width="200">
+                    <a href="SEPATU.html">SEPATU</a>
+                </td>
+                <td>
+                    <img src="CELANA.JPG" alt="Celana" width="200">
+                    <a href="CELANA.html">CELANA</a>
+                </td>
+                <td>
+                    <img src="TAS.JPG" alt="Tas" width="200">
+                    <a href="TAS.html">TAS</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
